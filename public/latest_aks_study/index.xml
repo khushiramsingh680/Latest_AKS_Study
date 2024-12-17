@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure Kubernetes Services (AKS) :: Azure Kubernetes Services</title>
+    <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/index.html</link>
+    <description>AKS allows you to quickly deploy a production ready Kubernetes cluster in Azure</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Installation</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-deployment-/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-deployment-/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Cluster Networking Models</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-networking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-networking/index.html</guid>
+      <description>TOC</description>
+    </item>
+    <item>
+      <title>Kubernetes Storage and Data Management</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-storage/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-storage/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Workload Deployment and Management</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-workload-deployment/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-workload-deployment/index.html</guid>
+      <description>TOC</description>
+    </item>
+    <item>
+      <title>Kubernetes Monitoring and Logging</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-monitoring/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-monitoring/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Troubleshooting and Optimization</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-troubleshooting/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-troubleshooting/index.html</guid>
+      <description>TOC</description>
+    </item>
+    <item>
+      <title>Kubernetes Advanced Scenarios</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-service-mesh/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-service-mesh/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes CI/CD Integration</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-cicd/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-cicd/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Security</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-security/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-security/index.html</guid>
+      <description>TOC</description>
+    </item>
+  </channel>
+</rss>

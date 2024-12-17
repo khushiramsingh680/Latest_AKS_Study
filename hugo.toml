@@ -1,0 +1,16 @@
+baseURL = 'https://khushiramsingh680.github.io/Latest_AKS_Study/'
+languageCode = 'en-us'
+title = 'Azure Kubernetes Services'
+theme = 'hugo-theme-relearn'
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+  # Relearn theme-specific parameters
+  colorTheme = "light"
+  layout = "wide"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
