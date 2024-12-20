@@ -1,40 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/index.html</loc>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/</loc>
     <lastmod>2024-12-16T12:49:13+05:30</lastmod>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-deployment-/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-networking/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-storage/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-workload-deployment/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-monitoring/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-troubleshooting/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-service-mesh/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-cicd/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-security/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/categories/index.html</loc>
-  </url>
-  <url>
-    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/tags/index.html</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-deployment-/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-networking/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-storage/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-workload-deployment/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-monitoring/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-troubleshooting/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-service-mesh/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-cicd/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-security/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/</loc>
+    <lastmod>2024-12-16T12:49:13+05:30</lastmod>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/categories/</loc>
+  </url><url>
+    <loc>https://khushiramsingh680.github.io/Latest_AKS_Study/tags/</loc>
   </url>
 </urlset>

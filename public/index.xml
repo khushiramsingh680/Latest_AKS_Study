@@ -2,18 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure Kubernetes Services</title>
-    <link>https://khushiramsingh680.github.io/Latest_AKS_Study/index.html</link>
-    <description>1. Cluster Provisioning and Configuration Node Pools and Scaling Configure system and user node pools. Use spot VMs for cost optimization. Set up auto-scaling for workloads and node pools. Cluster Upgrades Plan and perform cluster upgrades with zero downtime. Understand maintenance windows and Kubernetes version compatibility. High Availability Deploy multiple node pools across availability zones. Use regional load balancers for failover. 2. Networking Cluster Networking Models Set up Azure CNI and Kubenet networking. Implement network policies for traffic control between pods. DNS and Load Balancing Integrate Azure Application Gateway (AGIC) with AKS. Use external and internal load balancers for services. Private Clusters Create a private AKS cluster with restricted access. Set up VPN or ExpressRoute for secure connectivity. Ingress Controllers Deploy and configure NGINX or Azure Application Gateway as an ingress controller. 3. Security Role-Based Access Control (RBAC) Configure RBAC for users and workloads. Implement Azure AD integration for identity management. Pod Security Apply Pod Security Policies (PSPs) or Pod Security Standards (PSS). Use secrets securely with Azure Key Vault integration. Network Security Use Azure Firewall and NSGs to secure AKS clusters. Implement encryption in transit and at rest. Compliance and Auditing Enable Azure Policy for AKS governance. Set up monitoring for security incidents and vulnerabilities. 4. Storage and Data Management Persistent Storage Integrate Azure Disk, File, and Blob storage as persistent volumes. Manage dynamic provisioning using StorageClasses. Data Backup and Recovery Configure Velero or Azure Backup for AKS. Test disaster recovery scenarios for critical workloads. 5. Workload Deployment and Management Deployment Strategies Implement canary and blue-green deployment using tools like Argo Rollouts or Kubernetes-native features. Use Helm for packaging and managing Kubernetes manifests. Scaling and Resource Management Configure HPA (Horizontal Pod Autoscaler) and VPA (Vertical Pod Autoscaler). Use resource quotas and limits to optimize cluster usage. Job and CronJob Management Set up and schedule Kubernetes Jobs and CronJobs. 6. Monitoring and Logging Observability Integrate Azure Monitor with AKS for metrics and logs. Set up Prometheus and Grafana for detailed monitoring. Logging Use Azure Log Analytics for centralized logging. Collect application logs using FluentD or FluentBit. Alerting Create alerts for pod crashes, resource overuse, and node issues. Set up notifications via Azure Alerts or third-party tools. 7. CI/CD Integration DevOps Pipeline Build CI/CD pipelines using GitLab, Azure DevOps, or Jenkins for AKS deployments. Automate infrastructure deployment using Terraform. Container Registry Securely integrate with Azure Container Registry (ACR). Use private repositories for image management. 8. Troubleshooting and Optimization Cluster Diagnostics Use kubectl commands and Azure CLI for troubleshooting issues. Analyze logs using Azure Monitor and K8s dashboards. Performance Tuning Optimize resource requests and limits for containers. Conduct load testing on critical applications. Issue Resolution Debug CrashLoopBackOff, OutOfMemory (OOM), and Pending Pods scenarios. 9. Advanced Scenarios Hybrid and Multi-Cluster Management Connect AKS with Azure Arc for hybrid management. Set up multi-cluster communication using service mesh (e.g., Istio or Linkerd). GitOps Implement GitOps workflows with FluxCD or ArgoCD. Service Mesh Deploy a service mesh for traffic management and observability. 10. Cost Management Cost Optimization Use Azure Cost Management for AKS billing insights. Analyze cost breakdown by node pools, workloads, and storage. Cluster Rightsizing Identify underutilized nodes or workloads and adjust resources.</description>
+    <link>https://khushiramsingh680.github.io/Latest_AKS_Study/</link>
+    <description>Recent content on Azure Kubernetes Services</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2024 12:49:13 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://khushiramsingh680.github.io/Latest_AKS_Study/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Azure Kubernetes Services (AKS)</title>
-      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/index.html</link>
-      <pubDate>Mon, 16 Dec 2024 12:49:13 +0530</pubDate>
-      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/index.html</guid>
-      <description>AKS allows you to quickly deploy a production ready Kubernetes cluster in Azure</description>
+      <title>Kubernetes Installation</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-deployment-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-deployment-/</guid>
+      <description>&lt;h1 id=&#34;azure-aks-cluster-creation-script&#34;&gt;Azure AKS Cluster Creation Script&lt;/h1&gt;&#xA;&lt;h2 id=&#34;step-1-login-with-service-principal&#34;&gt;Step 1: Login with Service Principal&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az login &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --service-principal &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -t &amp;lt;Tenant-ID&amp;gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -u &amp;lt;Client-ID&amp;gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -p &amp;lt;Client-secret&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Step 2: Set Subscription&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;```&lt;/span&gt;bash&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az account set -s &amp;lt;subscription-id&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Step 3: Set Environment Variables&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export RANDOM_ID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;openssl rand -hex 3&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export MY_RESOURCE_GROUP_NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rg-aks&lt;/span&gt;$RANDOM_ID&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export REGION&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;westeurope&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export MY_AKS_CLUSTER_NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;aks&lt;/span&gt;$RANDOM_ID&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export MY_DNS_LABEL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mydnslabel&lt;/span&gt;$RANDOM_ID&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Step 4: Create Resource Group&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az group create --name $MY_RESOURCE_GROUP_NAME --location $REGION&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Step 5: Create AKS cluster&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az aks create &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --resource-group $MY_RESOURCE_GROUP_NAME &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --name $MY_AKS_CLUSTER_NAME &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --node-count &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --node-vm-size standard_d2s_v5 &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Cluster Networking Models</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-networking/</guid>
+      <description>&lt;p&gt;TOC&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Storage and Data Management</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Workload Deployment and Management</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-workload-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-workload-deployment/</guid>
+      <description>&lt;p&gt;TOC&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Monitoring and Logging</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Troubleshooting and Optimization</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-troubleshooting/</guid>
+      <description>&lt;p&gt;TOC&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Advanced Scenarios</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-service-mesh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-service-mesh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes CI/CD Integration</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-cicd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-cicd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes Security</title>
+      <link>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khushiramsingh680.github.io/Latest_AKS_Study/latest_aks_study/kubernetes-security/</guid>
+      <description>&lt;p&gt;TOC&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
